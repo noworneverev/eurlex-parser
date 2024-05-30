@@ -1,9 +1,12 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 import re
 import json
-from utils import html_table_to_markdown
+from src.utils import html_table_to_markdown
 import pandas as pd
+import warnings
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 def get_data_by_celex_id(celex_id: str, language: str = "en") -> dict:
     """
@@ -186,43 +189,3 @@ def get_articles_by_celex_id(celex_id) -> pd.DataFrame:
     data = get_data_by_celex_id(celex_id)
     articles = data['articles']
     return pd.DataFrame(articles, columns=["id", "title", "text", "metadata", "notes"])
-    
-    
-
-# data = get_data_by_celex_id('32013R0575')
-
-# df = get_articles_by_celex_id('32013R0575')
-# df.head(5)
-
-with open('32013L0036.json', 'w', encoding='utf-8') as f:
-    f.write(get_json_by_celex_id('32013L0036'))
-
-with open('32013R0575.json', 'w', encoding='utf-8') as f:
-    f.write(get_json_by_celex_id('32013R0575'))
-
-with open('32019L0878.json', 'w', encoding='utf-8') as f:
-    f.write(get_json_by_celex_id('32019L0878'))
-
-with open('32019R0876.json', 'w', encoding='utf-8') as f:
-    f.write(get_json_by_celex_id('32019R0876'))
-
-# with open('de.json', 'w', encoding='utf-8') as f:
-#     f.write(json.dumps(get_html_by_celex_id('32013R0575', 'de'), indent=4))
-
-# with open('en.json', 'w', encoding='utf-8') as f:
-#     f.write(json.dumps(get_data_by_celex_id('32013R0575'), indent=4))
-
-# get_html_by_celex_id('32013R0575', 'fr')
-
-
-# with open('32013L0036.json', 'w', encoding='utf-8') as f:
-#     f.write(get_html_by_celex_id('32013L0036'))
-
-# with open('32019L0878.json', 'w', encoding='utf-8') as f:
-#     f.write(get_html_by_celex_id('32019L0878'))
-
-# with open('32019R0876.json', 'w', encoding='utf-8') as f:
-#     f.write(get_html_by_celex_id('32019R0876'))
-
-
-# get_html_by_celex_id('32013R0575')
