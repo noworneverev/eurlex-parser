@@ -18,6 +18,7 @@ pip install eurlex-parser
 
 - `get_articles_by_celex_id(celex_id: str) -> pd.DataFrame`: Fetches and parses the articles for the given CELEX ID and returns them as a Pandas DataFrame.
 
+- `get_summary_by_celex_id(celex_id: str, language: str = "en")` -> dict: Fetches and parses the summary for the given CELEX ID and returns it as a dictionary containing the document's title, chapters, and the last modified date. (Note: The summary is not available for all documents.)
 
 ### Examples
 
@@ -46,6 +47,14 @@ Following are some examples of how to use the functions to fetch and parse data 
     df = get_articles_by_celex_id('32013R0575')
     print(df.head())
     ```
+4. Fetch and print summary for a given CELEX ID:
+    ```python
+    from eurlex import get_summary_by_celex_id
+
+    summary = get_summary_by_celex_id('32013R0575')
+    print(summary)
+    ```
+
 
 You can find some generated JSON files in the `examples` directory.
 
@@ -83,6 +92,13 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
       ]
     }
   ],
+  "notes": [
+    {
+      "id": "1",
+      "text": "Note text",
+      "url": "https://eur-lex.europa.eu/..."
+    }
+  ],
   "final_part": "Final part text",
   "annexes": [
     {
@@ -91,7 +107,15 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
       "text": "Annex text",
       "table": "Markdown table text"
     }
-  ]
+  ],
+  "summary": {
+    "title": "Document Title",
+    "chapters": {
+      "Chapter Title 1": "Chapter content 1",
+      "Chapter Title 2": "Chapter content 2"
+    },
+    "last_modified": "Last modified date"
+  }
 }
 ```
 
