@@ -8,30 +8,12 @@ import warnings
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
-def get_data_by_celex_id(celex_id: str, language: str = "en") -> dict:
-    """
-    Only support English for now
-    """    
-
-    url = f"https://eur-lex.europa.eu/legal-content/{language}/TXT/HTML/?uri=CELEX:{celex_id}"    
-    response = requests.get(url)     
-
-    soup = BeautifulSoup(response.text, 'lxml')
-                       
-    return {
-        'title': parse_title(soup),
-        'preamble': parse_pbl(soup),        
-        'articles': parse_articles(soup),
-        'final_part': parse_fnp(soup),
-        'annexes': parse_annexes(soup)
-    }
-
 def parse_title(soup):
     title_text = ''
     tit_1_div = soup.find('div', id="tit_1")
     if tit_1_div:
         title_text = tit_1_div.text
-        title_text = title_text.replace('\u00a0',' ')
+        title_text = title_text.replace('\u00a0',' ').strip()
     return title_text
 
 def parse_fnp(soup):
@@ -180,6 +162,73 @@ def extract_notes(soup, div):
         notes.append(note_dic)
     return notes
 
+def get_summary_by_celex_id(celex_id: str, language: str = "en") -> dict:
+    """
+    Support multiple languages
+    """        
+    url = f"https://eur-lex.europa.eu/legal-content/{language}/LSU/?uri=CELEX:{celex_id}"        
+    response = requests.get(url)     
+
+    soup = BeautifulSoup(response.text, 'lxml')
+
+    # title
+    title_h1 = soup.find("h1", class_="ti-main")
+    title_text = title_h1.text if title_h1 else ''    
+
+    # last modified    
+    lastmod_div = soup.find('p', class_="lastmod")
+    last_modified = lastmod_div.text.strip() if lastmod_div else ''
+        
+    chapter_contents = {}
+    chapters = soup.find_all("h2", class_="ti-chapter")
+    for chapter in chapters:
+        chapter_title = chapter.text.strip()        
+
+        content = []
+        for sibling in chapter.find_next_siblings():
+            if sibling.name == 'h2' and 'ti-chapter' in sibling.get('class', []) or 'lastmod' in sibling.get('class', []):
+                break
+
+            if sibling.name == 'ul':
+                list_items = sibling.find_all('li')
+                for item in list_items:
+                    text = "- " + item.get_text().strip().replace('\xa0', '')
+                    content.append(text)
+            else:
+                content.append(sibling.get_text().replace('\xa0', ''))
+        
+        chapter_contents[chapter_title] = '\n'.join(content)    
+
+    return {
+        'title': title_text,        
+        'chapters': chapter_contents,
+        'last_modified': last_modified
+    }
+
+
+def get_data_by_celex_id(celex_id: str, language: str = "en") -> dict:
+    """
+    Only support English for now
+    """    
+
+    url = f"https://eur-lex.europa.eu/legal-content/{language}/TXT/HTML/?uri=CELEX:{celex_id}"    
+    response = requests.get(url)     
+
+    soup = BeautifulSoup(response.text, 'lxml')
+        
+    preamble = parse_pbl(soup)
+    articles = parse_articles(soup)
+    article_notes = [note for article in articles for note in article["notes"]]
+        
+    return {
+        'title': parse_title(soup),
+        'preamble': preamble,
+        'articles': articles,
+        'final_part': parse_fnp(soup),
+        'notes': preamble["notes"] + article_notes,
+        'annexes': parse_annexes(soup),
+        'summary': get_summary_by_celex_id(celex_id, language)
+    }
 
 def get_json_by_celex_id(celex_id) -> str:
     data = get_data_by_celex_id(celex_id)

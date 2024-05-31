@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION = '0.0.2'  
+VERSION = '0.0.3'  
 DESCRIPTION  = 'Eurlex parser for fetching and parsing Eurlex data.'
 
 def read_requirements():
