@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import re
 
 def html_table_to_markdown(html):
     soup = BeautifulSoup(html, 'html.parser')
