@@ -3,9 +3,10 @@ import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 import re
 import json
-from src.utils import html_table_to_markdown
+from src.utils import html_table_to_markdown, extract_directives_and_regulations, extract_directive_and_regulation_at_beginning
 import pandas as pd
 import warnings
+from urllib.parse import urljoin
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
@@ -40,7 +41,8 @@ def parse_pbl(soup):
                 
     return {
         'text': pbl_text,
-        'notes': notes
+        'notes': notes,
+        'references': extract_directives_and_regulations(pbl_text)
     }
         
 def parse_annexes(soup):
@@ -67,6 +69,7 @@ def parse_annexes(soup):
         annex_data['title'] = annex_title
         annex_data['text'] = annex_text
         annex_data['table'] = annex_table
+        annex_data['references'] = extract_directives_and_regulations(annex_text)
         annexes.append(annex_data)
     return annexes
 
@@ -84,22 +87,22 @@ def clean_text(text):
     return text
 
 def find_parent_title(div, depth=0, results=None):
-        if results is None:
-            results = {}
-        if div is None or depth > 10:  # Avoid too deep recursion
-            return results
-        key, value = None, None
-        for d in div.children:
-            if d.name == 'p' and d.get('class') == ['oj-ti-section-1']:
-                key = d.text.strip()
-            elif d.name == 'div' and d.get('class') == ['eli-title']:
-                value = d.text.strip()
-        if key and value:
-            results[key] = value
-        elif key:
-            results[key] = ''
-        parent_div = div.findParent("div")
-        return find_parent_title(parent_div, depth + 1, results)
+    if results is None:
+        results = {}
+    if div is None or depth > 10:  # Avoid too deep recursion
+        return results
+    key, value = None, None
+    for d in div.children:
+        if d.name == 'p' and d.get('class') == ['oj-ti-section-1']:
+            key = d.text.strip()
+        elif d.name == 'div' and d.get('class') == ['eli-title']:
+            value = d.text.strip()
+    if key and value:
+        results[key] = value
+    elif key:
+        results[key] = ''
+    parent_div = div.findParent("div")
+    return find_parent_title(parent_div, depth + 1, results)
 
 def parse_articles(soup):
     articles = []    
@@ -130,15 +133,19 @@ def parse_articles(soup):
         article_data['text'] = article_text
         article_data['metadata'] = parent_info
         article_data['notes'] = notes
+        article_data['references'] = extract_directives_and_regulations(article_text)
         articles.append(article_data)
     return articles
 
 def extract_note_text(text):
-    cleaned_text = text.strip().replace('\xa0', '')
+    # cleaned_text = text.strip().replace('\xa0', '')
+    cleaned_text = text.strip().replace('\u00a0', ' ')
     cleaned_text = re.sub(r'^\(\d+\)\s+', '', cleaned_text)    
     cleaned_text = re.sub(r'^\(\d+\)', '', cleaned_text)
     cleaned_text = re.sub(r'^\(\*\d+\)', '', cleaned_text)
     return cleaned_text.strip()
+    # return text.strip()
+    
 
 def extract_notes(soup, div):
     note_tags = div.find_all('span', class_='oj-super oj-note-tag') if div else []
@@ -170,6 +177,7 @@ def extract_notes(soup, div):
                     index = href.find("legal-content")
                     url = "https://eur-lex.europa.eu/" + href[index:] if index != -1 else ''
         note_dic['url'] = url
+        note_dic['reference'] = extract_directive_and_regulation_at_beginning(cleaned_note_text)
 
         notes.append(note_dic)
     return notes
@@ -187,8 +195,8 @@ def extract_text_between(start_tag, end_tag=None, include_start_tag=False):
             break
         if element.get('class') and ('SectionTitle' in element.get('class') or 'ChapterTitle' in element.get('class')):
             continue
-        if element.name == 'p':
-            content.append(element.get_text(separator=" ", strip=True))            
+        if element.name == 'p':            
+            content.append(element.get_text(separator=" ", strip=True).replace('\u00a0',' '))            
             
     return "\n\n".join(content)
 
@@ -206,11 +214,12 @@ def extract_note_between(soup, start_tag, end_tag=None):
             if a_tag and 'href' in a_tag.attrs:
                 note_ref_id = a_tag['href'][1:]  # Removing the leading '#'                                            
             footnote_soup = soup.find('dd', id=note_ref_id)             
-            note_text = footnote_soup.get_text(separator=" ", strip=True)
+            note_text = footnote_soup.get_text(separator=" ", strip=True).replace('\u00a0',' ')
             external_refs = footnote_soup.find_all('a', class_='externalRef')
             note['id'] = note_id
             note['text'] = note_text
             note['external_refs'] = [ref.get('href') for ref in external_refs if ref.get('href').startswith('http')]
+            note['reference'] = extract_directive_and_regulation_at_beginning(note_text)
             notes.append(note)
             
     return notes
@@ -329,15 +338,29 @@ def get_data_by_celex_id(celex_id: str, language: str = "en") -> dict:
     """    
 
     url = f"https://eur-lex.europa.eu/legal-content/{language}/TXT/HTML/?uri=CELEX:{celex_id}"    
+    table_url = f"https://eur-lex.europa.eu/legal-content/{language}/ALL/?uri=CELEX:{celex_id}"
     response = requests.get(url)     
     soup = BeautifulSoup(response.text, 'lxml')
 
     if celex_id[5:7] == "PC":        
         return parse_pc_soup_data(soup)    
     else:        
+
+        # Parse relationship between documents
+        # Modifies
+
+        # table id="relatedDocsTbMS"
+        # table id="relatedDocsTb"
+        
+
+        modifies_documents = extract_related_documents(celex_id, language, 'relatedDocsTbMS')
+        modified_by_documents = extract_related_documents(celex_id, language, 'relatedDocsTb')
+
+        
         preamble = parse_pbl(soup)
         articles = parse_articles(soup)
         article_notes = [note for article in articles for note in article["notes"]]
+        article_references = [ref for article in articles for ref in article["references"]]
             
         return {
             'title': parse_title(soup),
@@ -345,9 +368,47 @@ def get_data_by_celex_id(celex_id: str, language: str = "en") -> dict:
             'articles': articles,
             'final_part': parse_fnp(soup),
             'notes': preamble["notes"] + article_notes,
+            'references': list(dict.fromkeys(preamble["references"] + article_references)),
             'annexes': parse_annexes(soup),
-            'summary': get_summary_by_celex_id(celex_id, language)
+            'summary': get_summary_by_celex_id(celex_id, language),
+            'related_documents': {
+                'modifies': modifies_documents,
+                'modified_by': modified_by_documents
+            }
         }
+
+def extract_related_documents(celex_id, language, table_id='relatedDocsTbMS'):
+    base_url = "https://eur-lex.europa.eu"
+    table_url = f"https://eur-lex.europa.eu/legal-content/{language}/ALL/?uri=CELEX:{celex_id}"
+    table_response = requests.get(table_url)     
+    table_soup = BeautifulSoup(table_response.text, 'lxml')
+
+    table = table_soup.find('table', id=table_id)
+    headers = [header.get_text(strip=True) for header in table.find('thead').find_all('th')]
+
+    data_list = []
+    for row in table.find('tbody').find_all('tr'):
+        columns = row.find_all('td')
+        data_dict = {}
+        for i in range(len(headers)):
+            key = headers[i]
+            if key == 'Act':
+                a_tag = columns[i].find('a')
+                if a_tag:
+                    relative_url = a_tag['href']
+                    absolute_url = urljoin(base_url, relative_url)
+                    act_info = {
+                            'celex': a_tag.get_text(strip=True),                            
+                            'url': absolute_url
+                        }
+                    data_dict[key] = act_info
+                else:
+                    data_dict[key] = ''
+            else:
+                data_dict[key] = columns[i].get_text(strip=True)
+
+        data_list.append(data_dict)
+    return data_list
 
 def parse_pc_soup_data(soup):
     title = ""
@@ -366,7 +427,8 @@ def parse_pc_soup_data(soup):
     explantory_memorandum_text = extract_text_between(start_tag, end_tag)      
     notes = extract_note_between(soup, start_tag, end_tag)   
     explantory_memorandum["text"] = explantory_memorandum_text
-    explantory_memorandum["notes"] = notes        
+    explantory_memorandum["notes"] = notes
+    explantory_memorandum["references"] = extract_directives_and_regulations(explantory_memorandum_text)    
 
     pbl = {}
     pbl_text = ""
@@ -375,7 +437,8 @@ def parse_pc_soup_data(soup):
     pbl_text = extract_text_between(start_tag, end_tag, include_start_tag=True)
     notes = extract_note_between(soup, start_tag, end_tag)
     pbl["text"] = pbl_text
-    pbl["notes"] = notes        
+    pbl["notes"] = notes
+    pbl["references"] = extract_directives_and_regulations(pbl_text)  
         
     articles = []
     metadata_stack = []
@@ -400,7 +463,7 @@ def parse_pc_soup_data(soup):
             metadata_stack.append(title_text)   
             
         if 'Titrearticle' in tag.get('class', []):
-                # Prepare current metadata from the stack     
+            # Prepare current metadata from the stack     
             current_metadata = {}
             if is_chapter_title_tag_exist:           
                     # print(metadata_stack)
@@ -412,7 +475,7 @@ def parse_pc_soup_data(soup):
                         current_metadata[metadata_stack[j]] = metadata_stack[j + 1]
                 
                 
-                # Find the next article or end tag
+            # Find the next article or end tag
             next_tag = None
             for j in range(i + 1, len(all_p_tags)):
                 if 'Titrearticle' in all_p_tags[j].get('class', []) or 'Applicationdirecte' in all_p_tags[j].get('class', []):
@@ -422,19 +485,31 @@ def parse_pc_soup_data(soup):
             article_text = extract_text_between(tag, next_tag)
             article_notes = extract_note_between(soup, tag, next_tag)
             article_id = tag.find('span').text.strip()
-            article_title = tag.find('span').find_next_sibling().text.strip() if tag.find('span').find_next_sibling() else ''
+            
+            next_siblings = tag.find('span').find_next_siblings()            
+            article_title = ' '.join(sibling.text.strip() for sibling in next_siblings)
+
+            # article_title = tag.find('span').find_next_sibling().text.strip() if tag.find('span').find_next_sibling() else ''
             articles.append({
                     "id": article_id,
                     "title": article_title,
                     "text": article_text,
                     "notes": article_notes,
-                    "metadata": current_metadata
+                    "metadata": current_metadata,
+                    "references": extract_directives_and_regulations(article_text)
                 })
                     
     final_part = ""
-    fait_text = soup.find('p', class_='Fait').get_text(separator=" ", strip=True)
-    signature_text = soup.find('div', class_='signature').get_text(separator=" ", strip=True)
-    final_part = fait_text + "\n" +  signature_text        
+    application_directe = soup.find('p', class_='Applicationdirecte')
+    application_directe_text = application_directe.get_text(separator=" ", strip=True) if application_directe else ''
+
+    fait_text = soup.find('p', class_='Fait')
+    fait_text_text = fait_text.get_text(separator=" ", strip=True) if fait_text else ''
+
+    signature_text = soup.find('div', class_='signature')
+    signature_text_text = signature_text.get_text(separator=" ", strip=True) if signature_text else ''
+
+    final_part = application_directe_text + "\n" + fait_text_text + "\n" + signature_text_text    
         
     financial_statement = {}
     finance_tag = soup.find('p', class_='Fichefinanciretitre') 
@@ -451,17 +526,18 @@ def parse_pc_soup_data(soup):
     for footnote_id in footnote_ids:
         note = {}
         footnote_soup = soup.find('dd', id=footnote_id)
-        note_text = footnote_soup.get_text(separator=" ", strip=True)
+        note_text = footnote_soup.get_text(separator=" ", strip=True).replace('\u00a0',' ')
         external_refs = footnote_soup.find_all('a', class_='externalRef')            
         note_id = footnote_soup.find('span', class_='num').text.strip()
         note_id = re.search(r'\((\d+)\)', note_id).group(1)            
         note['id'] = note_id
         note['text'] = note_text
         note['external_refs'] = [ref.get('href') for ref in external_refs if ref.get('href').startswith('http')]
+        note['reference'] = extract_directive_and_regulation_at_beginning(note_text)        
         notes.append(note)            
             
-    annexes = extract_annexes_from_soup(soup)
-    # return title,explantory_memorandum,notes,pbl,articles,final_part,financial_statement,annexes
+    annexes = extract_annexes_from_soup(soup)    
+    article_references = [ref for article in articles for ref in article["references"]]
     return {
             'title': title,
             'explantory_memorandum': explantory_memorandum,
@@ -469,6 +545,7 @@ def parse_pc_soup_data(soup):
             'articles': articles,
             'final_part': final_part,
             'notes': notes,
+            'references': list(dict.fromkeys(pbl["references"] + article_references)),
             'annexes': annexes,
             'financial_statement': financial_statement
         }
@@ -480,4 +557,4 @@ def get_json_by_celex_id(celex_id) -> str:
 def get_articles_by_celex_id(celex_id) -> pd.DataFrame:
     data = get_data_by_celex_id(celex_id)
     articles = data['articles']
-    return pd.DataFrame(articles, columns=["id", "title", "text", "metadata", "notes"])
+    return pd.DataFrame(articles, columns=["id", "title", "text", "metadata", "notes", "references"])
