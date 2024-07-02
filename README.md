@@ -70,7 +70,8 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
       {
         "id": "1",
         "text": "Note text",
-        "url": "https://eur-lex.europa.eu/..."
+        "url": "https://eur-lex.europa.eu/...",
+        "reference": null
       }
     ]
   },
@@ -87,8 +88,13 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
         {
           "id": "1",
           "text": "Note text",
-          "url": "https://eur-lex.europa.eu/..."
+          "url": "https://eur-lex.europa.eu/...",
+          "reference": null
         }
+      ],
+      "references": [
+        "Directive ..../../..",
+        "Regulation (EU) No .../....",
       ]
     }
   ],
@@ -96,8 +102,13 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
     {
       "id": "1",
       "text": "Note text",
-      "url": "https://eur-lex.europa.eu/..."
+      "url": "https://eur-lex.europa.eu/...",
+      "reference": null
     }
+  ],  
+  "references": [
+    "Directive ..../../..",
+    "Regulation (EU) No .../....",
   ],
   "final_part": "Final part text",
   "annexes": [
@@ -115,6 +126,34 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
       "Chapter Title 2": "Chapter content 2"
     },
     "last_modified": "Last modified date"
+  },
+  "related_documents": {
+    "modifies": [
+      {
+        "Relation": "Modifies",
+        "Act": {
+            "celex": "CELEX Number",
+            "url": "https://eur-lex.europa.eu/..."
+        },
+        "Comment": "Addition",
+        "Subdivision concerned": "Article number/paragraph",
+        "From": "date",
+        "To": "date"
+      }
+    ],
+    "modified_by": [
+      {
+        "Relation": "Corrected by",
+        "Act": {
+            "celex": "CELEX Number",
+            "url": "https://eur-lex.europa.eu/..."
+        },
+        "Comment": "",
+        "Subdivision concerned": "Article number/paragraph",
+        "From": "date",
+        "To": "date"
+      }
+    ],
   }
 }
 ```

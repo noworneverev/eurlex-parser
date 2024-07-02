@@ -5,59 +5,79 @@
         "notes": [
             {
                 "id": "1",
-                "text": "OJC34, 31.1.2018, p.5.",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2018:034:TOC"
+                "text": "OJ C 34, 31.1.2018, p. 5.",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2018:034:TOC",
+                "reference": null
             },
             {
                 "id": "2",
-                "text": "OJC209, 30.6.2017, p.36.",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2017:209:TOC"
+                "text": "OJ C 209, 30.6.2017, p. 36.",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2017:209:TOC",
+                "reference": null
             },
             {
                 "id": "3",
-                "text": "Position of the European Parliament of 16April 2019 (not yet published in the Official Journal) and decision of the Council of 14May 2019.",
-                "url": ""
+                "text": "Position of the European Parliament of 16 April 2019 (not yet published in the Official Journal) and decision of the Council of 14 May 2019.",
+                "url": "",
+                "reference": null
             },
             {
                 "id": "4",
-                "text": "Directive 2013/36/EU of the European Parliament and of the Council of 26June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directives 2006/48/EC and 2006/49/EC (OJL176, 27.6.2013, p.338).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC"
+                "text": "Directive 2013/36/EU of the European Parliament and of the Council of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directives 2006/48/EC and 2006/49/EC (OJ L 176, 27.6.2013, p. 338).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC",
+                "reference": "Directive 2013/36/EU"
             },
             {
                 "id": "5",
-                "text": "Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJL176, 27.6.2013, p.1).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC"
+                "text": "Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC",
+                "reference": "Regulation (EU) No 575/2013"
             },
             {
                 "id": "6",
-                "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJL173, 12.6.2014, p.190).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+                "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15 May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJ L 173, 12.6.2014, p. 190).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+                "reference": "Directive 2014/59/EU"
             },
             {
                 "id": "7",
-                "text": "Council Regulation (EU) No 1024/2013 of 15October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions (OJL287, 29.10.2013, p.63).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:287:TOC"
+                "text": "Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions (OJ L 287, 29.10.2013, p. 63).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:287:TOC",
+                "reference": "Council Regulation (EU) No 1024/2013"
             },
             {
                 "id": "8",
-                "text": "Regulation (EU) No 1093/2010 of the European Parliament and of the Council of 24November 2010 establishing a European Supervisory Authority (European Banking Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/78/EC (OJL331, 15.12.2010, p.12).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+                "text": "Regulation (EU) No 1093/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Banking Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/78/EC (OJ L 331, 15.12.2010, p. 12).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+                "reference": "Regulation (EU) No 1093/2010"
             },
             {
                 "id": "9",
-                "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJL141, 5.6.2015, p.73).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC"
+                "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJ L 141, 5.6.2015, p. 73).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC",
+                "reference": "Directive (EU) 2015/849"
             },
             {
                 "id": "10",
-                "text": "Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board (OJL331, 15.12.2010, p.1).",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+                "text": "Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board (OJ L 331, 15.12.2010, p. 1).",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+                "reference": "Regulation (EU) No 1092/2010"
             },
             {
                 "id": "11",
-                "text": "OJC369, 17.12.2011, p.14.",
-                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2011:369:TOC"
+                "text": "OJ C 369, 17.12.2011, p. 14.",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2011:369:TOC",
+                "reference": null
             }
+        ],
+        "references": [
+            "Directive 2013/36/EU",
+            "Regulation (EU) No 575/2013",
+            "Directive 2014/59/EU",
+            "Regulation (EU) No 1024/2013",
+            "Regulation (EU) No 1093/2010",
+            "Directive (EU) 2015/849",
+            "Regulation (EU) No 1092/2010"
         ]
     },
     "articles": [
@@ -69,49 +89,86 @@
             "notes": [
                 {
                     "id": "*1",
-                    "text": "Directive 2014/65/EU of the European Parliament and of the Council of 15May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJL173, 12.6.2014, p.349).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+                    "text": "Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJ L 173, 12.6.2014, p. 349).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+                    "reference": "Directive 2014/65/EU"
                 },
                 {
                     "id": "*2",
-                    "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJL173, 12.6.2014, p.190).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+                    "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15 May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJ L 173, 12.6.2014, p. 190).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+                    "reference": "Directive 2014/59/EU"
                 },
                 {
                     "id": "*3",
-                    "text": "Regulation (EU) No 1094/2010 of the European Parliament and of the Council of 24November 2010 establishing a European Supervisory Authority (European Insurance and Occupational Pensions Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/79/EC (OJL331, 15.12.2010, p.48).\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+                    "text": "Regulation (EU) No 1094/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Insurance and Occupational Pensions Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/79/EC (OJ L 331, 15.12.2010, p. 48).\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+                    "reference": "Regulation (EU) No 1094/2010"
                 },
                 {
                     "id": "*4",
-                    "text": "Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012 (OJL173, 12.6.2014, p.84).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+                    "text": "Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+                    "reference": "Regulation (EU) No 600/2014"
                 },
                 {
                     "id": "*5",
-                    "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJL141, 5.6.2015, p.73).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC"
+                    "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJ L 141, 5.6.2015, p. 73).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC",
+                    "reference": "Directive (EU) 2015/849"
                 },
                 {
                     "id": "*6",
-                    "text": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJL119, 4.5.2016, p.1).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2016:119:TOC"
+                    "text": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2016:119:TOC",
+                    "reference": "Regulation (EU) 2016/679"
                 },
                 {
                     "id": "*7",
-                    "text": "Regulation (EU) 2017/2402 of the European Parliament and of the Council of 12December 2017 laying down a general framework for securitisation and creating a specific framework for simple, transparent and standardised securitisation, and amending Directives 2009/65/EC, 2009/138/EC and 2011/61/EU and Regulations (EC) No 1060/2009 and (EU) No 648/2012 (OJL347, 28.12.2017, p.35).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2017:347:TOC"
+                    "text": "Regulation (EU) 2017/2402 of the European Parliament and of the Council of 12 December 2017 laying down a general framework for securitisation and creating a specific framework for simple, transparent and standardised securitisation, and amending Directives 2009/65/EC, 2009/138/EC and 2011/61/EU and Regulations (EC) No 1060/2009 and (EU) No 648/2012 (OJ L 347, 28.12.2017, p. 35).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2017:347:TOC",
+                    "reference": "Regulation (EU) 2017/2402"
                 },
                 {
                     "id": "*8",
-                    "text": "Commission Recommendation 2003/361/EC of 6May 2003 concerning the definition of micro, small and medium-sized enterprises (OJL124, 20.5.2003, p.36).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC"
+                    "text": "Commission Recommendation 2003/361/EC of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (OJ L 124, 20.5.2003, p. 36).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC",
+                    "reference": "Commission Recommendation 2003/361/EC"
                 },
                 {
                     "id": "*9",
-                    "text": "Regulation (EU) No 806/2014 of the European Parliament and of the Council of 15July 2014 establishing uniform rules and a uniform procedure for the resolution of credit institutions and certain investment firms in the framework of a Single Resolution Mechanism and a Single Resolution Fund and amending Regulation (EU) No 1093/2010 (OJL225, 30.7.2014, p.1).\u2019;\"",
-                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:225:TOC"
+                    "text": "Regulation (EU) No 806/2014 of the European Parliament and of the Council of 15 July 2014 establishing uniform rules and a uniform procedure for the resolution of credit institutions and certain investment firms in the framework of a Single Resolution Mechanism and a Single Resolution Fund and amending Regulation (EU) No 1093/2010 (OJ L 225, 30.7.2014, p. 1).\u2019;\"",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:225:TOC",
+                    "reference": "Regulation (EU) No 806/2014"
                 }
+            ],
+            "references": [
+                "Directive 2013/36/EU",
+                "Directive 2014/65/EU",
+                "Directive 2002/92/EC",
+                "Directive 2011/61/EU",
+                "Directive 2014/59/EU",
+                "Regulation (EU) No 575/2013",
+                "Directive 82/891/EEC",
+                "Regulation (EU) No 1093/2010",
+                "Directive 2002/87/EC",
+                "Regulation (EU) No 1094/2010",
+                "Regulation (EU) No 600/2014",
+                "Decision 2009/79/EC",
+                "Regulation (EU) No 648/2012",
+                "Directive (EU) 2015/849",
+                "Directive 2005/60/EC",
+                "Directive 2006/70/EC",
+                "Regulation (EU) 2016/679",
+                "Directive 95/46/EC",
+                "Regulation (EU) 2017/2402",
+                "Directive 2009/138/EC",
+                "Commission Recommendation 2003/361/EC",
+                "Regulation (EU) No 806/2014",
+                "Regulation (EU) No 1092/2010",
+                "Directive 2001/24/EC",
+                "Directive 2012/30/EU",
+                "Directive 2009/65/EC"
             ]
         },
         {
@@ -119,130 +176,1697 @@
             "title": "Transposition",
             "text": " 1.   Member States shall adopt and publish, by 28 December 2020, the measures necessary to comply with this Directive. They shall immediately inform the Commission thereof.\nThey shall apply those measures from 29 December 2020. However, the provisions necessary to comply with the amendments set out in point (21) and points (29)(a), (b) and (c) of Article 1 of this Directive as regards Article 84 and Article 98(5) and (5a) of Directive 2013/36/EU shall apply from 28 June 2021 and the provisions necessary to comply with the amendments set out in points (52) and (53) of Article 1 of this Directive as regards Articles 141b, 141c and Article 142(1) of Directive 2013/36/EU shall apply from 1 January 2022. When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such reference on the occasion of their official publication. The methods of making such reference shall be laid down by Member States.\n\n 2.   Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
             "metadata": {},
-            "notes": []
+            "notes": [],
+            "references": [
+                "Directive 2013/36/EU"
+            ]
         },
         {
             "id": "Article 3",
             "title": "Entry into force",
             "text": "This Directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
             "metadata": {},
-            "notes": []
+            "notes": [],
+            "references": []
         },
         {
             "id": "Article 4",
             "title": "Addressees",
             "text": "This Directive is addressed to the Member States.",
             "metadata": {},
-            "notes": []
+            "notes": [],
+            "references": []
         }
     ],
     "final_part": "Done at Brussels, 20 May 2019.\nFor the European Parliament\nThe President\nA. TAJANI\nFor the Council\nThe President\nG. CIAMBA",
     "notes": [
         {
             "id": "1",
-            "text": "OJC34, 31.1.2018, p.5.",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2018:034:TOC"
+            "text": "OJ C 34, 31.1.2018, p. 5.",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2018:034:TOC",
+            "reference": null
         },
         {
             "id": "2",
-            "text": "OJC209, 30.6.2017, p.36.",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2017:209:TOC"
+            "text": "OJ C 209, 30.6.2017, p. 36.",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2017:209:TOC",
+            "reference": null
         },
         {
             "id": "3",
-            "text": "Position of the European Parliament of 16April 2019 (not yet published in the Official Journal) and decision of the Council of 14May 2019.",
-            "url": ""
+            "text": "Position of the European Parliament of 16 April 2019 (not yet published in the Official Journal) and decision of the Council of 14 May 2019.",
+            "url": "",
+            "reference": null
         },
         {
             "id": "4",
-            "text": "Directive 2013/36/EU of the European Parliament and of the Council of 26June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directives 2006/48/EC and 2006/49/EC (OJL176, 27.6.2013, p.338).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC"
+            "text": "Directive 2013/36/EU of the European Parliament and of the Council of 26 June 2013 on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, amending Directive 2002/87/EC and repealing Directives 2006/48/EC and 2006/49/EC (OJ L 176, 27.6.2013, p. 338).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC",
+            "reference": "Directive 2013/36/EU"
         },
         {
             "id": "5",
-            "text": "Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJL176, 27.6.2013, p.1).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC"
+            "text": "Regulation (EU) No 575/2013 of the European Parliament and of the Council of 26 June 2013 on prudential requirements for credit institutions and investment firms and amending Regulation (EU) No 648/2012 (OJ L 176, 27.6.2013, p. 1).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:176:TOC",
+            "reference": "Regulation (EU) No 575/2013"
         },
         {
             "id": "6",
-            "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJL173, 12.6.2014, p.190).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+            "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15 May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJ L 173, 12.6.2014, p. 190).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+            "reference": "Directive 2014/59/EU"
         },
         {
             "id": "7",
-            "text": "Council Regulation (EU) No 1024/2013 of 15October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions (OJL287, 29.10.2013, p.63).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:287:TOC"
+            "text": "Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions (OJ L 287, 29.10.2013, p. 63).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2013:287:TOC",
+            "reference": "Council Regulation (EU) No 1024/2013"
         },
         {
             "id": "8",
-            "text": "Regulation (EU) No 1093/2010 of the European Parliament and of the Council of 24November 2010 establishing a European Supervisory Authority (European Banking Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/78/EC (OJL331, 15.12.2010, p.12).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+            "text": "Regulation (EU) No 1093/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Banking Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/78/EC (OJ L 331, 15.12.2010, p. 12).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+            "reference": "Regulation (EU) No 1093/2010"
         },
         {
             "id": "9",
-            "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJL141, 5.6.2015, p.73).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC"
+            "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJ L 141, 5.6.2015, p. 73).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC",
+            "reference": "Directive (EU) 2015/849"
         },
         {
             "id": "10",
-            "text": "Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board (OJL331, 15.12.2010, p.1).",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+            "text": "Regulation (EU) No 1092/2010 of the European Parliament and of the Council of 24 November 2010 on European Union macro-prudential oversight of the financial system and establishing a European Systemic Risk Board (OJ L 331, 15.12.2010, p. 1).",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+            "reference": "Regulation (EU) No 1092/2010"
         },
         {
             "id": "11",
-            "text": "OJC369, 17.12.2011, p.14.",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2011:369:TOC"
+            "text": "OJ C 369, 17.12.2011, p. 14.",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:C:2011:369:TOC",
+            "reference": null
         },
         {
             "id": "*1",
-            "text": "Directive 2014/65/EU of the European Parliament and of the Council of 15May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJL173, 12.6.2014, p.349).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+            "text": "Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU (OJ L 173, 12.6.2014, p. 349).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+            "reference": "Directive 2014/65/EU"
         },
         {
             "id": "*2",
-            "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJL173, 12.6.2014, p.190).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+            "text": "Directive 2014/59/EU of the European Parliament and of the Council of 15 May 2014 establishing a framework for the recovery and resolution of credit institutions and investment firms and amending Council Directive 82/891/EEC, and Directives 2001/24/EC, 2002/47/EC, 2004/25/EC, 2005/56/EC, 2007/36/EC, 2011/35/EU, 2012/30/EU and 2013/36/EU, and Regulations (EU) No 1093/2010 and (EU) No 648/2012, of the European Parliament and of the Council (OJ L 173, 12.6.2014, p. 190).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+            "reference": "Directive 2014/59/EU"
         },
         {
             "id": "*3",
-            "text": "Regulation (EU) No 1094/2010 of the European Parliament and of the Council of 24November 2010 establishing a European Supervisory Authority (European Insurance and Occupational Pensions Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/79/EC (OJL331, 15.12.2010, p.48).\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC"
+            "text": "Regulation (EU) No 1094/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Insurance and Occupational Pensions Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/79/EC (OJ L 331, 15.12.2010, p. 48).\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2010:331:TOC",
+            "reference": "Regulation (EU) No 1094/2010"
         },
         {
             "id": "*4",
-            "text": "Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012 (OJL173, 12.6.2014, p.84).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC"
+            "text": "Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:173:TOC",
+            "reference": "Regulation (EU) No 600/2014"
         },
         {
             "id": "*5",
-            "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJL141, 5.6.2015, p.73).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC"
+            "text": "Directive (EU) 2015/849 of the European Parliament and of the Council of 20 May 2015 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing, amending Regulation (EU) No 648/2012 of the European Parliament and of the Council, and repealing Directive 2005/60/EC of the European Parliament and of the Council and Commission Directive 2006/70/EC (OJ L 141, 5.6.2015, p. 73).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2015:141:TOC",
+            "reference": "Directive (EU) 2015/849"
         },
         {
             "id": "*6",
-            "text": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJL119, 4.5.2016, p.1).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2016:119:TOC"
+            "text": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2016:119:TOC",
+            "reference": "Regulation (EU) 2016/679"
         },
         {
             "id": "*7",
-            "text": "Regulation (EU) 2017/2402 of the European Parliament and of the Council of 12December 2017 laying down a general framework for securitisation and creating a specific framework for simple, transparent and standardised securitisation, and amending Directives 2009/65/EC, 2009/138/EC and 2011/61/EU and Regulations (EC) No 1060/2009 and (EU) No 648/2012 (OJL347, 28.12.2017, p.35).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2017:347:TOC"
+            "text": "Regulation (EU) 2017/2402 of the European Parliament and of the Council of 12 December 2017 laying down a general framework for securitisation and creating a specific framework for simple, transparent and standardised securitisation, and amending Directives 2009/65/EC, 2009/138/EC and 2011/61/EU and Regulations (EC) No 1060/2009 and (EU) No 648/2012 (OJ L 347, 28.12.2017, p. 35).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2017:347:TOC",
+            "reference": "Regulation (EU) 2017/2402"
         },
         {
             "id": "*8",
-            "text": "Commission Recommendation 2003/361/EC of 6May 2003 concerning the definition of micro, small and medium-sized enterprises (OJL124, 20.5.2003, p.36).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC"
+            "text": "Commission Recommendation 2003/361/EC of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (OJ L 124, 20.5.2003, p. 36).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC",
+            "reference": "Commission Recommendation 2003/361/EC"
         },
         {
             "id": "*9",
-            "text": "Regulation (EU) No 806/2014 of the European Parliament and of the Council of 15July 2014 establishing uniform rules and a uniform procedure for the resolution of credit institutions and certain investment firms in the framework of a Single Resolution Mechanism and a Single Resolution Fund and amending Regulation (EU) No 1093/2010 (OJL225, 30.7.2014, p.1).\u2019;\"",
-            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:225:TOC"
+            "text": "Regulation (EU) No 806/2014 of the European Parliament and of the Council of 15 July 2014 establishing uniform rules and a uniform procedure for the resolution of credit institutions and certain investment firms in the framework of a Single Resolution Mechanism and a Single Resolution Fund and amending Regulation (EU) No 1093/2010 (OJ L 225, 30.7.2014, p. 1).\u2019;\"",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=OJ:L:2014:225:TOC",
+            "reference": "Regulation (EU) No 806/2014"
         }
+    ],
+    "references": [
+        "Directive 2013/36/EU",
+        "Regulation (EU) No 575/2013",
+        "Directive 2014/59/EU",
+        "Regulation (EU) No 1024/2013",
+        "Regulation (EU) No 1093/2010",
+        "Directive (EU) 2015/849",
+        "Regulation (EU) No 1092/2010",
+        "Directive 2014/65/EU",
+        "Directive 2002/92/EC",
+        "Directive 2011/61/EU",
+        "Directive 82/891/EEC",
+        "Directive 2002/87/EC",
+        "Regulation (EU) No 1094/2010",
+        "Regulation (EU) No 600/2014",
+        "Decision 2009/79/EC",
+        "Regulation (EU) No 648/2012",
+        "Directive 2005/60/EC",
+        "Directive 2006/70/EC",
+        "Regulation (EU) 2016/679",
+        "Directive 95/46/EC",
+        "Regulation (EU) 2017/2402",
+        "Directive 2009/138/EC",
+        "Commission Recommendation 2003/361/EC",
+        "Regulation (EU) No 806/2014",
+        "Directive 2001/24/EC",
+        "Directive 2012/30/EU",
+        "Directive 2009/65/EC"
     ],
     "annexes": [],
     "summary": {
         "title": "",
         "chapters": {},
         "last_modified": ""
+    },
+    "related_documents": {
+        "modifies": [
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 103",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 104 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 105 point (d)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 108 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 131 paragraph 11",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 131 paragraph 13",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 131 paragraph 16",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 131 paragraph 17",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 132",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 92 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 97 paragraph 1 point (b)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 97 paragraph 1 Text",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 98 paragraph 1 point (j)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Repeal",
+                "Subdivision concerned": "article 99 paragraph 2 point (b)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 104a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 104b",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 104c",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 109 paragraph 4",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 109 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 109 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 115 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 116 paragraph 1a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 116 paragraph 6 unnumbered paragraph",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 117 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 117 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 125 paragraph 1 unnumbered paragraph",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 128 unnumbered paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 128 unnumbered paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 128 unnumbered paragraph 4",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 131 paragraph 2a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 131 paragraph 5a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 141a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 141b",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 141c",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 21a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 21b",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 60",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 61",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 62",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 63",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 64",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 1 point 65",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 3 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 47 paragraph 1a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 47 paragraph 2a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 56 point (h)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 58a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 63 paragraph 1 unnumbered paragraph",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 64 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 66 paragraph 1 point (e)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 67 paragraph 1 point (q)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 8 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 88 paragraph 1 unnumbered paragraph",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 89 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 9 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 9 paragraph 4",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 91 paragraph 12 point (f)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 92 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 94 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 94 paragraph 4",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 94 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 94 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 94 paragraph 7",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 97 paragraph 4 unnumbered paragraph",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 97 paragraph 4a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 97 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 98 paragraph 5a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "article 98 paragraph 8",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "chapter 161 paragraph 10",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Addition",
+                "Subdivision concerned": "chapter 1a article 159a",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 10",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 104 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 104 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 109 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 109 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 111",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 113",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 119 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 120 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 129",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 130",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 10",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 12",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 14",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 15",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 18",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 3 unnumbered paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 7 Text",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 8",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 paragraph 9",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 131 Text",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 133",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 134",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 136 paragraph 3 Text",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 136 paragraph 7",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 14 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 3",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 4",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 141 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 142 paragraph 1 unnumbered paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 143 paragraph 1 point (c)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 146",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 18 point (d)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 2 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 2 paragraph 6",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 23 paragraph 1 point (b)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 4 paragraph 8",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 47 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 56 point (g)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 57 paragraph 1 sentence 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 64 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 74",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 75 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 8 paragraph 2 point (a)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 8 paragraph 2 point (b)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 84",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 85 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 91 paragraph 1",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 91 paragraph 7",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 91 paragraph 8",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 92 paragraph 2 sentence",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 92 paragraph 2 point (aa)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 94 paragraph 1 point (l) PT (i)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 94 paragraph 1 point (m)",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 94 paragraph 2",
+                "From": "27/06/2019",
+                "To": ""
+            },
+            {
+                "Relation": "Modifies",
+                "Act": {
+                    "celex": "32013L0036",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32013L0036"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 98 paragraph 5",
+                "From": "27/06/2019",
+                "To": ""
+            }
+        ],
+        "modified_by": [
+            {
+                "Relation": "Corrected by",
+                "Act": {
+                    "celex": "32019L0878R(01)",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32019L0878R(01)"
+                },
+                "Comment": "(NL)",
+                "Subdivision concerned": "",
+                "From": "",
+                "To": ""
+            },
+            {
+                "Relation": "Corrected by",
+                "Act": {
+                    "celex": "32019L0878R(02)",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32019L0878R(02)"
+                },
+                "Comment": "(NL)",
+                "Subdivision concerned": "",
+                "From": "",
+                "To": ""
+            },
+            {
+                "Relation": "Corrected by",
+                "Act": {
+                    "celex": "32019L0878R(03)",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32019L0878R(03)"
+                },
+                "Comment": "",
+                "Subdivision concerned": "",
+                "From": "",
+                "To": ""
+            },
+            {
+                "Relation": "Corrected by",
+                "Act": {
+                    "celex": "32019L0878R(04)",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32019L0878R(04)"
+                },
+                "Comment": "(PL)",
+                "Subdivision concerned": "",
+                "From": "",
+                "To": ""
+            },
+            {
+                "Relation": "Corrected by",
+                "Act": {
+                    "celex": "32019L0878R(05)",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32019L0878R(05)"
+                },
+                "Comment": "(BG, CS, DA, DE, LT, HU, NL)",
+                "Subdivision concerned": "",
+                "From": "",
+                "To": ""
+            },
+            {
+                "Relation": "Modified by",
+                "Act": {
+                    "celex": "32021L0338",
+                    "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:32021L0338"
+                },
+                "Comment": "Replacement",
+                "Subdivision concerned": "article 2 paragraph 1",
+                "From": "28/12/2020",
+                "To": ""
+            }
+        ]
     }
 }
