@@ -3,7 +3,9 @@ import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 import re
 import json
-from src.utils import html_table_to_markdown, extract_directives_and_regulations, extract_directive_and_regulation_at_beginning
+from utils import html_table_to_markdown
+from utils import extract_directives_and_regulations
+from utils import extract_directive_and_regulation_at_beginning
 import pandas as pd
 import warnings
 from urllib.parse import urljoin

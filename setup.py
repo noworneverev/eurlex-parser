@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.5'  
+VERSION = '0.0.12'  
 DESCRIPTION  = 'Eurlex parser for fetching and parsing Eurlex data.'
 
 def read_requirements():
@@ -14,9 +14,8 @@ def read_long_description():
 setup(
     name='eurlex-parser',
     version=VERSION,
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
-    py_modules=['eurlex'],
+    packages=[''],    
+    package_dir={'': 'src'},    
     include_package_data=True,
     install_requires=read_requirements(),
     description=DESCRIPTION,
