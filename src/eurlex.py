@@ -386,6 +386,8 @@ def extract_related_documents(celex_id, language, table_id='relatedDocsTbMS'):
     table_soup = BeautifulSoup(table_response.text, 'lxml')
 
     table = table_soup.find('table', id=table_id)
+    if not table:
+        return []
     headers = [header.get_text(strip=True) for header in table.find('thead').find_all('th')]
 
     data_list = []
@@ -560,3 +562,6 @@ def get_articles_by_celex_id(celex_id) -> pd.DataFrame:
     data = get_data_by_celex_id(celex_id)
     articles = data['articles']
     return pd.DataFrame(articles, columns=["id", "title", "text", "metadata", "notes", "references"])
+
+data = get_data_by_celex_id('32024R0856')
+print(data)
