@@ -562,6 +562,3 @@ def get_articles_by_celex_id(celex_id) -> pd.DataFrame:
     data = get_data_by_celex_id(celex_id)
     articles = data['articles']
     return pd.DataFrame(articles, columns=["id", "title", "text", "metadata", "notes", "references"])
-
-data = get_data_by_celex_id('32024R0856')
-print(data)
